@@ -1,0 +1,14 @@
+{
+  "name": "pervarious",
+  "version": "1.0.0",
+  "description": "pervarious is an electronic live-act from Mannheim, Germany, consisting of Yolanda Diefenbach (vocals), Thilo Eichhorn (synth), Patrick Pilarski (synthbass) and Michael Fischer (drums).",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=7000"
+  },
+  "author": "Michaela Lehr",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}

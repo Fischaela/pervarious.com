@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.album {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.album__cover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 280px;
+  height: 280px;
+}
+
+@media screen and (min-width: 900px) {
+  .album__cover {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.footer {
+  color: #6e5563;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.section--antarctica {
+  background: linear-gradient(-135deg, #243A3D, #5E7E85);
+}
+
+.section--runrun {
+  background-image: url("images/runrun-background.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.section--fullscreen {
+  min-width: 100%;
+  min-width: 100vw;
+  min-height: 100%;
+  min-height: 100vh;
+}
