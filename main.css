@@ -99,3 +99,16 @@ body {
   min-height: 100%;
   min-height: 100vh;
 }
+
+.soundcloud {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  width: 280px;
+  height: 280px;
+}
+
+@media screen and (min-width: 900px) {
+  .soundcloud {
+    width: 400px;
+    height: 400px;
+  }
+}
