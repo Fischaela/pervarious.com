@@ -26,17 +26,61 @@ body {
   }
 }
 
+.album__icons {
+  list-style: none;
+
+  display: flex;
+  flex-direction: colum;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.album__icon {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.album__icon__link {
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: block;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+
+  transition: opacity 0.35s ease-in-out;
+}
+
+.album__icon__link:hover {
+  opacity: 0.8;
+}
+
+.album__icon__link--instagram {
+  background-image: url("icons/_ionicons_svg_logo-instagram.svg")
+}
+
+.album__icon__link--soundcloud {
+  background-image: url("icons/icon-soundcloud.svg")
+}
+
+.album__icon__link--website {
+  background-image: url("icons/icon-link.svg")
+}
+
+.album__icon__link--youtube {
+  background-image: url("icons/_ionicons_svg_logo-youtube.svg")
+}
+
 .footer {
-  color: #6e5563;
+  color: #004451;
   font-family: sans-serif;
   font-size: 14px;
   text-align: center;
 
-  padding: 0 20px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  background-color: #122a2a;
+  padding: 20px;
 }
 
 .section--antarctica {
