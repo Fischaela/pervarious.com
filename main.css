@@ -106,9 +106,16 @@ body {
   height: 280px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
   .soundcloud {
     width: 400px;
     height: 400px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .soundcloud {
+    width: 600px;
+    height: 600px;
   }
 }
