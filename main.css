@@ -58,7 +58,7 @@ body {
 }
 
 .album__icon__link--instagram {
-  background-image: url("icons/_ionicons_svg_logo-instagram.svg")
+  background-image: url("icons/icon-instagram.svg")
 }
 
 .album__icon__link--soundcloud {
@@ -70,7 +70,7 @@ body {
 }
 
 .album__icon__link--youtube {
-  background-image: url("icons/_ionicons_svg_logo-youtube.svg")
+  background-image: url("icons/icon-youtube.svg")
 }
 
 .footer {
