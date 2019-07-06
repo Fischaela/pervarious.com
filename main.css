@@ -30,8 +30,7 @@ body {
   list-style: none;
 
   display: flex;
-  flex-direction: colum;
-  margin: 20px 0 0 0;
+  margin: 20px 0 40px 0;
   padding: 0;
 }
 
